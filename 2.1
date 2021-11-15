@@ -1,0 +1,27 @@
+# Exercise 4
+
+x = int(input())
+a = (x % (10 ** 4)) // (10 ** 3)
+b = (x % (10 ** 3)) // (10 ** 2)
+c = (x % (10 ** 2)) // (10 ** 1)
+d = (x % (10 ** 1)) // (10 ** 0)
+print(a, b, c, d)
+
+# Exercise 5
+
+m = int(input())
+y = m // 100
+u = (m % (10 ** 2)) // (10 ** 1)
+i = (m % (10 ** 1)) // (10 ** 0)
+print(y + u + i)
+
+# Exercise 6
+
+from math import *
+
+A = int(input())
+B = int(input())
+C = int(input())
+p = (A + B + C) / 2
+S = sqrt(p * (p - A) * (p - B) * (p - C))
+print(S)
